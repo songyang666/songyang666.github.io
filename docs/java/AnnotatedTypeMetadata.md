@@ -3,9 +3,10 @@
 
 
 ## subclass hierarchy 
+- MethodMetadata is responsible to gain annotations metadata from method that annotated this annotation 
+- AnnotationMetadata is responsible to gain annotations metadata from class that annotated this annotation
+
 ![img.png](../resources/images/AnnotatedTypeMetadata_sub.png)
-1. MethodMetadata is responsible to gain annotations metadata from method that annotated this annotation
-2. AnnotationMetadata is responsible to gain annotations metadata from class that annotated this annotation
 
 ## AnnotationMetadata example 
 - AppConfig
