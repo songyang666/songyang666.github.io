@@ -9,6 +9,7 @@ site_description: Charlie's site
 nav:
   - java:
     - java/reactor-servlet_async_response.md
+    - java/AnnotatedTypeMetadata.md
 
 # [UI]
 # [top]
