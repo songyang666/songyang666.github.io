@@ -7,14 +7,17 @@ site_description: Charlie's site
 
 # [Navigtion]
 nav:
-  - java:
+  - Java:
     - java/reactor-servlet_async_response.md
     - java/AnnotatedTypeMetadata.md
+  - Tools:
+    - tools/macos_mkdocs_install.md
+
 
 # [UI]
 # [top]
 theme:
-  name: material
+  name: readthedocs
   # [切换日间模式和夜间模式]
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
   palette:
