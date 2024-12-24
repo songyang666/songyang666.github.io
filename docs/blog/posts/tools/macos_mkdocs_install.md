@@ -1,4 +1,13 @@
-#Macos 安装
+---
+date:
+  created: 2024-12-24
+categories:
+  - Macos
+readtime: 5
+authors:
+  - charlie
+---
+# Macos 安装 mkdocs
 ### 1. 安装 homebrew
 
 ```bash

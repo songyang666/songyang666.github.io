@@ -1,3 +1,15 @@
+---
+date:
+  created: 2024-12-24
+categories:
+  - Java
+tags:
+  - Java
+authors:
+  - charlie
+readtime: 8
+
+---
 # Reactor And Servlet Async Response
 本文从Servlet Async Response对比Reactor进行总结
 ## 异步请求处理流程
@@ -40,7 +52,7 @@
 ## Reactor 模型
     Reactor 模型通常用于完全非阻塞的、事件驱动的服务器架构，比如在 Netty 或者 Spring WebFlux 中。它基于单线程或少量线程处理大量并发连接，通过事件循环机制触发处理逻辑。Servlet 容器中的异步处理虽然借鉴了一些异步和非阻塞的思想，但并没有完全采用 Reactor 模型，而是更多地依赖于线程池来处理任务。
 ### Reactor 模型图
-![reactor](../resources/images/reactor.png "reactor")
+![reactor](../../../resources/images/reactor.png "reactor")
 
 
 ### 这是Reactor模型的流程图，展示了事件循环如何处理非阻塞I/O操作：
