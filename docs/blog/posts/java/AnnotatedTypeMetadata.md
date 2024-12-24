@@ -1,3 +1,14 @@
+---
+date:
+  created: 2024-12-24
+categories:
+  - Java
+  - Spring
+authors:
+  - charlie  
+readtime: 8
+
+---
 # Spring AnnotatedTypeMetadata
 > Defines access to the annotations of a specific type (class or method), in a form that does not necessarily require class loading of the types being inspected.  Note, however, that classes for encountered annotations will be loaded.
 
@@ -6,7 +17,7 @@
 - MethodMetadata is responsible to gain annotations metadata from method that annotated this annotation 
 - AnnotationMetadata is responsible to gain annotations metadata from class that annotated this annotation
 
-![img.png](../resources/images/AnnotatedTypeMetadata_sub.png)
+![img.png](../../../resources/images/AnnotatedTypeMetadata_sub.png)
 
 ## AnnotationMetadata example 
 - AppConfig

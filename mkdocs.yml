@@ -7,17 +7,16 @@ site_description: Charlie's site
 
 # [Navigtion]
 nav:
-  - Java:
-    - java/reactor-servlet_async_response.md
-    - java/AnnotatedTypeMetadata.md
-  - Tools:
-    - tools/macos_mkdocs_install.md
+  - Home: index.md
+  - Blog:
+      - blog/index.md
 
 
-# [UI]
 # [top]
 theme:
-  name: readthedocs
+  name: material
+  font:
+    text: Roboto
   # [切换日间模式和夜间模式]
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
   palette:
@@ -71,6 +70,22 @@ theme:
     # [添加 GitHub 仓库]
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#repository-icon
     repo: fontawesome/brands/github
+
+# [plugins]
+plugins:
+  - tags
+  - search
+  # [https://squidfunk.github.io/mkdocs-material/tutorials/blogs/basic/]
+  - blog:
+      archive_date_format: MMMM yyyy
+      blog_toc: true
+      categories_allowed:
+        - Java
+        - Git
+        - Maven
+        - Macos
+        - Spring
+        - JVM
 # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
 edit_uri: edit/main/docs/
