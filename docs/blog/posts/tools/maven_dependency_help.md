@@ -9,7 +9,8 @@ authors:
 ---
 # 利用mvn dependency 命令查询依赖
 ```bash
-# mvn dependeny:tree -Dincludes=groupId:artifactId:version
-# 可以用*代替gav的任何一个
+# mvn dependency:tree -Dincludes=groupId:artifactId
+# mvn dependency:tree -Dincludes=ch.qos.logback -o
+# mvn dependency:tree -Dincludes=org.springframework:spring-core
  mvn -o dependency:tree -Dincludes=commons-logging 
 ```
