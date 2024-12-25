@@ -1,3 +1,4 @@
+# 
 <div class="image-container">
   <img src="resources/images/img.png" alt="Image 0">
   <figcaption>Discover ideas, insights, and inspiration in every corner of this space.</figcaption>
