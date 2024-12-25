@@ -45,7 +45,7 @@
 }
 
 .image-container img {
-position: absolute;
+position: relative;
 top: 0;
 left: 0;
 width: 100%;
@@ -55,11 +55,18 @@ transform: translateY(100%);
 transition: transform 0.3s ease-in-out;
 }
 
+@media (max-width: 768px) {
+  figcaption {
+    font-size: 12px;
+    bottom: 5px; 
+    left: 5px;
+  }
+}
 .image-container figcaption {
 position: absolute;
 bottom: 20px;
 left: 20px;
-color: white;
+color: navajowhite;
 font-size: 1.2rem;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
