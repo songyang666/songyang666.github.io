@@ -7,7 +7,6 @@ site_description: Charlie's site
 
 # [Navigtion]
 nav:
-  - Home: index.md
   - Blog:
       - blog/index.md
 
@@ -15,6 +14,7 @@ nav:
 # [top]
 theme:
   name: material
+  timezone: Asia/Shanghai
   font:
     text: Roboto
   # [切换日间模式和夜间模式]
@@ -24,7 +24,7 @@ theme:
     - scheme: default
       # 主颜色
       # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
-      primary: indigo
+      primary: white
       # 链接等可交互元件的高亮色
       # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
       accent: orange
@@ -35,7 +35,7 @@ theme:
         name: 切换至夜间模式
     # 夜间模式
     - scheme: slate
-      primary: indigo
+      primary: white
       accent: orange
       toggle:
         icon: material/weather-sunny
@@ -94,15 +94,15 @@ edit_uri: edit/main/docs/
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
 repo_url: https://github.com/songyang666/songyang666.github.io
 repo_name: songyang666.github.io
-# [bottom-left corner]
-# [版权说明]
-# https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#copyright-notice
-#copyright: charlie song
-# [bottom-right corner]
-#extra:
+  # [bottom-left corner]
+  # [版权说明]
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#copyright-notice
+  #copyright: charlie song
+  # [bottom-right corner]
+  #extra:
   # [添加社交网络图标和链接]
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
   # 搜索图标：https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
-  # name 会在鼠标悬浮时提示
+# name 会在鼠标悬浮时提示
 #  social: # icons
 #    - name: GitHub | songyang666
