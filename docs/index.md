@@ -59,7 +59,7 @@ transition: transform 0.3s ease-in-out;
   figcaption {
     font-size: 12px;
     bottom: 5px; 
-    color: navajowhite;
+    color: yellow;
     left: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
@@ -68,7 +68,7 @@ transition: transform 0.3s ease-in-out;
 position: absolute;
 bottom: 20px;
 left: 20px;
-color: navajowhite;
+color: yellow;
 font-size: 1.2rem;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
