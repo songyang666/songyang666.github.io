@@ -96,7 +96,8 @@ Untracked files:
         newfile.txt
 ```
 
-next actions
+next actions  
+
 1. 提交到暂存区
 git add newfile.txt
 2. 忽略
@@ -258,9 +259,9 @@ git cherry-pick --abort
 ```
 
 ### Tips to Avoid or Manage Conflicts
-- Before cherry-picking, inspect the commit with:
-  ```bash
-    git show <commit-hash>
-  ```
+- Before cherry-picking, inspect the commit with:  
+```bash
+git show <commit-hash>
+```
 
 - Rebase your branch to align with the source branch, reducing the chances of conflicts.
