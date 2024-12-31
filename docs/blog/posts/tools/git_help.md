@@ -24,11 +24,12 @@ git branch -d new-branch-name
 ## 创建一个名为 dev-xxx 的本地分支，并将它与远程分支 origin/release 进行跟踪
 1.不切换到dev-xxx，直接创建
 ```bash
-git checkout -b dev-xxx origin/release
+git branch dev-xxx --track origin/release
 ```
 2.创建dev-xxx，切换到dev-xxx
 ```bash
-git branch dev-xxx --track origin/release
+git checkout -b dev-xxx origin/release
+
 ```
 3. Git 2.23 + 以上，切换到dev-xxx
 ```bash
@@ -260,6 +261,6 @@ git cherry-pick --abort
 - Before cherry-picking, inspect the commit with:
   ```bash
     git show <commit-hash>
-    ```
+  ```
 
 - Rebase your branch to align with the source branch, reducing the chances of conflicts.
