@@ -1,8 +1,10 @@
 ---
 date:
   created: 2024-12-24
+  updated: 2025-01-01
 categories:
   - Macos
+  - mkdocs
 readtime: 5
 authors:
   - charlie

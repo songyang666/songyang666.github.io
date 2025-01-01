@@ -78,13 +78,7 @@ plugins:
   - blog:
       archive_date_format: MMMM yyyy
       blog_toc: true
-      categories_allowed:
-        - Java
-        - Git
-        - Maven
-        - Macos
-        - Spring
-        - JVM
+
 # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
 # [top-right corner]
