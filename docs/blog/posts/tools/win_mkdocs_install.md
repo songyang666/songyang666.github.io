@@ -36,18 +36,25 @@ pip install mkdocs-material
 mkdocs -V
 ```
 ## powershell 验证
-- 在cmd 中运行where mkdocs
-- 将mkdocs的路径添加到系统环境变量path中
-- 重启机器
 - 安装powershell
-[install](https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4)
-- powershell verify
+  [install](https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4)
+- Set-ExecutionPolicy  
+  <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4>
+- try in powershell
+```bash
+mkdocc -V
+```
+
+- if failed  
+    1. 在cmd 中运行where mkdocs  
+    2. 将mkdocs的路径添加到系统环境变量path中
+    3. 重启机器
+    4. powershell verify  
 ```bash
 gcm mkdocs 
 Get-Command mkdocs
 mkdocc -V
 ```
-
 - powershell check path
 ```bash
 Get-ChildItem env: 
